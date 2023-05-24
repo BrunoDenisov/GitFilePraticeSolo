@@ -1,0 +1,27 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Security.Cryptography.X509Certificates;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ConsolePratice_2
+{
+    public class Car:Vehicle
+    {
+        protected Guid VIN { get; set; }
+
+        public string RegistrationNum { get; set; }
+
+        public DateTime RegDate { get; set; }
+
+        public string Color { get; set; }
+
+       /*public virtual bool RegCheck()
+        {
+            DateTime regDate = RegDate;
+            DateTime curDate = DateTime.UtcNow;
+            DateTime dayDiff = regDate - curDate;
+        }*/
+    }
+}
