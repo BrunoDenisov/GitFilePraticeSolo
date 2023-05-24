@@ -17,11 +17,12 @@ namespace ConsolePratice_2
 
         public string Color { get; set; }
 
-       /*public virtual bool RegCheck()
+       public virtual bool RegCheck()
         {
-            DateTime regDate = RegDate;
-            DateTime curDate = DateTime.UtcNow;
-            DateTime dayDiff = regDate - curDate;
-        }*/
+            //Date test code
+            //Date test code
+            //date test code
+            return false;
+        }
     }
 }
